@@ -33,16 +33,16 @@ class _StatsGridNationalState extends State<StatsGridNational> {
           Flexible(
             child: Row(
               children: <Widget>[
-                _buildStatCard(
-                    'Cas confirmés',
-                    formatter.format(widget.covidInfo.confirmed),
-                    Colors.orange),
+                // _buildStatCard(
+                //     'Cas confirmés',
+                //     formatter.format(widget.covidInfo.confirmed),
+                //     Colors.orange),
                 _buildStatCard('Déces',
                     formatter.format(widget.covidInfo.deaths), Colors.red),
-                _buildStatCard(
-                    'Déces Ehpad',
-                    formatter.format(widget.covidInfo.ehpadDeaths),
-                    Colors.deepOrange),
+                // _buildStatCard(
+                //     'Déces Ehpad',
+                //     formatter.format(widget.covidInfo.ehpadDeaths),
+                //     Colors.deepOrange),
               ],
             ),
           ),
