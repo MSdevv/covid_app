@@ -16,7 +16,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return SafeArea(
       child: Scaffold(
-        // appBar: CustomAppBar(),
         body: CustomScrollView(
           physics: ClampingScrollPhysics(),
           slivers: <Widget>[
@@ -30,6 +29,8 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   SliverToBoxAdapter _buildHeader(double screenHeight) {
+    String urlCovidInfo =
+        'https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#';
     return SliverToBoxAdapter(
       child: Container(
         height: screenHeight * 0.33,
@@ -85,8 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             SizedBox(height: screenHeight * 0.03),
             GestureDetector(
-              onTap: () => _launchURL(
-                  'https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#'),
+              onTap: () => _launchURL(urlCovidInfo),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -193,9 +193,10 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 SliverToBoxAdapter _buildDepistage(double screenHeight, double screenWidth) {
+  String urlTestCovid = 'https://coronavirus.test.fr/';
   return SliverToBoxAdapter(
     child: GestureDetector(
-      onTap: () => _launchURL('https://coronavirus.test.fr/'),
+      onTap: () => _launchURL(urlTestCovid),
       child: Container(
         height: screenHeight * 0.20,
         margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),

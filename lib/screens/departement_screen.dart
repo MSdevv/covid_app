@@ -20,15 +20,9 @@ class _DepartementScreenState extends State<DepartementScreen> {
         dep.contains('97') ? dep.substring(4) : dep.substring(3);
     covidInfobyDep =
         await APIService().fetchCovidInfoByDepartement(depSplitted);
-
-    print('dep************************** $depSplitted');
-
-    print('hospi : ${covidInfobyDep.hospitalized}');
-    print('gueri : ${covidInfobyDep.cured}');
     setState(() {
       _isLoading = false;
     });
-    print('_isLoading fetchdata $_isLoading');
   }
 
   @override
@@ -64,69 +58,4 @@ class _DepartementScreenState extends State<DepartementScreen> {
       ),
     );
   }
-
-  // _buildStatGrid(CovidInfo covidInfo) {
-  //   return Container(
-  //     height: MediaQuery.of(context).size.height * 0.30,
-  //     child: Column(
-  //       children: <Widget>[
-  //         Flexible(
-  //           child: Row(
-  //             children: <Widget>[
-  //               _buildStatCard('Hospitalisés',
-  //                   covidInfo.hospitalized.toString(), Colors.orange),
-  //               _buildStatCard(
-  //                   'Deces', covidInfo.deaths.toString(), Colors.red),
-  //             ],
-  //           ),
-  //         ),
-  //         Flexible(
-  //           child: Row(
-  //             children: <Widget>[
-  //               _buildStatCard(
-  //                   'Gueris', covidInfo.cured.toString(), Colors.green),
-  //               _buildStatCard('Reanimation', covidInfo.reanimation.toString(),
-  //                   Colors.purple),
-  //             ],
-  //           ),
-  //         ),
-  //       ],
-  //     ),
-  //   );
-  // }
-
-  // _buildStatCard(String title, String count, MaterialColor color) {
-  //   return Expanded(
-  //     child: Container(
-  //       margin: const EdgeInsets.all(8.0),
-  //       padding: const EdgeInsets.all(10.0),
-  //       decoration: BoxDecoration(
-  //         color: color,
-  //         borderRadius: BorderRadius.circular(10.0),
-  //       ),
-  //       child: Column(
-  //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-  //         crossAxisAlignment: CrossAxisAlignment.start,
-  //         children: <Widget>[
-  //           Text(
-  //             title,
-  //             style: const TextStyle(
-  //               color: Colors.white,
-  //               fontSize: 15.0,
-  //               fontWeight: FontWeight.w600,
-  //             ),
-  //           ),
-  //           Text(
-  //             count,
-  //             style: const TextStyle(
-  //               color: Colors.white,
-  //               fontSize: 20.0,
-  //               fontWeight: FontWeight.bold,
-  //             ),
-  //           ),
-  //         ],
-  //       ),
-  //     ),
-  //   );
-  // }
 }

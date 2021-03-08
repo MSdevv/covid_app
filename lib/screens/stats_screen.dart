@@ -218,27 +218,4 @@ class _StatsScreenState extends State<StatsScreen> {
       ),
     );
   }
-
-  // SliverPadding _buildStatsTabBar() {
-  //   return SliverPadding(
-  //     padding: const EdgeInsets.all(20.0),
-  //     sliver: SliverToBoxAdapter(
-  //       child: DefaultTabController(
-  //         length: 3,
-  //         child: TabBar(
-  //           indicatorColor: Colors.transparent,
-  //           labelStyle: Styles.tabTextStyle,
-  //           labelColor: Colors.white,
-  //           unselectedLabelColor: Colors.white60,
-  //           tabs: <Widget>[
-  //             Text('Total'),
-  //             Text('Today'),
-  //             Text('Yesterday'),
-  //           ],
-  //           onTap: (index) {},
-  //         ),
-  //       ),
-  //     ),
-  //   );
-  // }
 }

@@ -14,7 +14,6 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   final List _screens = [
     HomeScreen(),
     StatsScreen(),
-    // DepartementScreen(),
     InfoScreen(),
   ];
 
