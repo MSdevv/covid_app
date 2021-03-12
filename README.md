@@ -1,16 +1,33 @@
-# covid_app
+# Covid App
 
-A new Flutter project.
+This is an application made with Flutter to use and display data about coronvirus in France.
+This app use the "CoronavirusAPI-France" API.
 
-## Getting Started
+Il s'agit d'une application créée avec Flutter permettant d'afficher et d'exploiter les données sur le coronavirus en France.
+Cette application s'appuie sur l'API CoronavirusAPI-France.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- API CoronavirusAPI-France
+- Regional and National Search
+- Data Updated Every Day (8:00 pm)
+- Nice Design
+- Launch Url
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20210312-161253](https://user-images.githubusercontent.com/61854420/110963180-0f2b8780-8352-11eb-9aa9-2cb523c3d390.jpg)
+![Screenshot_20210312-161305](https://user-images.githubusercontent.com/61854420/110963212-194d8600-8352-11eb-8444-71a280c2b813.jpg)
+![Screenshot_20210312-161315](https://user-images.githubusercontent.com/61854420/110963214-19e61c80-8352-11eb-9a80-e51215fceaad.jpg)
+![Screenshot_20210312-161325](https://user-images.githubusercontent.com/61854420/110963218-1a7eb300-8352-11eb-8070-e1f0da7e37cf.jpg)
+
+
+## Video demo
+
+https://user-images.githubusercontent.com/61854420/110963761-c1634f00-8352-11eb-9bf2-7275014acf2a.mp4
+
+## Link to the API :
+
+https://github.com/florianzemma/CoronavirusAPI-France
+
+
