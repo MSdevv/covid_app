@@ -24,7 +24,7 @@ Cette application s'appuie sur l'API CoronavirusAPI-France.
 
 ## Video demo
 
-https://user-images.githubusercontent.com/61854420/110963761-c1634f00-8352-11eb-9bf2-7275014acf2a.mp4
+https://www.youtube.com/watch?v=ODy0ndPvW-0
 
 ## Link to the API :
 
