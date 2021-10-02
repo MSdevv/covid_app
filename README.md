@@ -19,7 +19,6 @@ Cette application s'appuie sur l'API CoronavirusAPI-France.
 ![Screenshot_20210312-161253](https://user-images.githubusercontent.com/61854420/110963180-0f2b8780-8352-11eb-9aa9-2cb523c3d390.jpg)
 ![Screenshot_20210312-161305](https://user-images.githubusercontent.com/61854420/110963212-194d8600-8352-11eb-8444-71a280c2b813.jpg)
 ![Screenshot_20210312-161315](https://user-images.githubusercontent.com/61854420/110963214-19e61c80-8352-11eb-9a80-e51215fceaad.jpg)
-![Screenshot_20210312-161325](https://user-images.githubusercontent.com/61854420/110963218-1a7eb300-8352-11eb-8070-e1f0da7e37cf.jpg)
 
 
 ## Video demo
