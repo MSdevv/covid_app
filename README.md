@@ -1,18 +1,7 @@
 # Covid App
 
-This is an application made with Flutter to use and display data about coronvirus in France.
+Application made with Flutter using and displaying data about Coronavirus in France.
 This app use the "CoronavirusAPI-France" API.
-
-Il s'agit d'une application créée avec Flutter permettant d'afficher et d'exploiter les données sur le coronavirus en France.
-Cette application s'appuie sur l'API CoronavirusAPI-France.
-
-## Features
-
-- API CoronavirusAPI-France
-- Regional and National Search
-- Data Updated Every Day (8:00 pm)
-- Nice Design
-- Launch Url
 
 ## Screenshots
 
@@ -21,12 +10,10 @@ Cette application s'appuie sur l'API CoronavirusAPI-France.
 ![Screenshot_20210312-161315](https://user-images.githubusercontent.com/61854420/110963214-19e61c80-8352-11eb-9a80-e51215fceaad.jpg)
 
 
-## Video demo
-
-https://www.youtube.com/watch?v=ODy0ndPvW-0
-
 ## Link to the API :
 
 https://github.com/florianzemma/CoronavirusAPI-France
 
+## Video demo
 
+https://www.youtube.com/watch?v=ODy0ndPvW-0
